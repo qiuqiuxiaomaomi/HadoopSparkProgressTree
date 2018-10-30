@@ -31,4 +31,17 @@ MapReduce适用的场景
      3）可以独立地完成很多任务而无需同步
      5）可以利用排序和洗牌
      6）需要容错性，不接受作业失败	
+
+MapReduce提供的优点
+     1：编程模型 + 基础架构
+     2：能够编写在数百甚至数千台机器上运行的程序
+     3：自动并行化和分布
+     5：容错
+     6：程序/作业调度，状态检查和监控	
+</pre>
+
+<pre>
+Hadoop与Spark
+     Hadoop是一个MapReduce框架，在这个 框架上运行支持map(), combine(),reduce()函数的作业
+     Spark不是一个MapReduce框架，
 </pre>
